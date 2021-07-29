@@ -1,0 +1,300 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'arial bold';
+}
+
+#linea{
+    width: 100%;
+    height: 10px;
+    background: #086a87;
+} 
+
+#header{
+	width: 100%;
+	height: 111px;
+	background: #0b2f3a;
+}
+
+#header #centro1{
+	width: 1350px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	margin: auto;
+} 
+
+#header #centro1 #logo{
+	width: 550px; border: 0px solid;
+	float: left;
+} 
+
+#header #centro1 #logo h2{
+	color: #FFFF00;
+	margin-top: 30px;
+}
+
+.img2{
+	width: 85px;
+	height: 85px;
+	margin-top: 13px;
+	float: left;
+	margin-right: 20px;
+	border-radius: 50px
+}	
+
+/*----------menu----------------*/
+#header #menu{
+	width: 790px;
+	height: auto;
+	overflow: hidden;
+	border: 0px solid;
+	float: left;
+	margin-top: 40px;
+	text-align: center;
+}
+
+#header #menu ul li{
+	display: inline-block;
+	font-size: 25px;
+}
+
+#heder #menu ul li a{
+	color: #000000;
+	text-decoration: none;
+	padding: 7px 15px;
+	margin: 0px 6px;
+}
+
+#header #menu ul li a:hover{
+	background: #0a2a29;
+}
+
+/*--------presentacion---------*/
+
+#presentacion{
+	width: 100%;
+	height: auto; overflow: hidden;
+	background: #064154;
+}
+
+#presentacion #centro2{
+	width: -10px;
+	margin: 10px;
+}
+
+#presentacion #centro2 #izquierda{
+	width: 640px;
+	border: 0px solid;
+	float: left;
+	margin-left: 40px;
+	margin-bottom: 50px;
+}
+
+#presentacion #centro2 #izquierda h2{
+	color: #FF0000;
+	font-weight: lighter;
+}
+
+.descripcion-pres{
+	color: #000000;
+	text-align: justify;
+}
+
+.boton{
+	padding: 5px 20px;
+	border-radius: 7px;
+	border: 0;
+}
+
+.boton:hover{
+	background: #e6e6e6;
+	color: #8B0000;
+}
+
+#presentacion #centro2 #derecha{
+	width: 490px;
+	height: auto; float: right;
+}
+
+.img{
+	width: 460px;
+	height: 290px;
+	border: 4px solid #088a85;
+	float: right;
+	margin-right: 118px;
+	margin-top: 5px;
+}
+
+/*--------contenidos--------*/
+
+#contenidos{
+	background: #f2f2f2;
+	width: 100%;
+	height: auto; overflow: hidden;
+}
+
+#contenidos #centro3{
+	width: 1200px;
+	margin: auto; border: 0px solid; height: auto; overflow: hidden;
+}
+
+#contenidos #centro3 #izquierda{
+	width: 670px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	float: left; 
+}
+
+#contenidos #centro3 #izquierda h3{
+	color: #006400;
+	font-size: 22px;
+	text-align: center;
+}
+
+#contenidos #centro3 #izquierda .descripcion{
+	text-align: justify; color: #0000FF;
+	margin-top: -10px;	
+}
+
+.img-servicios{
+	width: 250px; height: 200px; display: inline-block;
+	padding: 2px; border: 2px solid #ccc;
+	margin: 0px 25px;
+	margin-left: 31px; 
+}
+
+/*---------contenido de la derecha----------*/
+
+#contenidos #centro3 #derecha{
+	width: 435px;
+	height: auto; overflow: hidden;
+	border: 0px solid;
+	float: right;	
+}
+
+#contenidos #centro3 #derecha h3{
+	text-align: center;
+	font-size: 23px
+	color: #FFFF00;
+}
+
+#contenidos #centro3 #derecha article{
+	width: 100%;
+	height: auto; overflow: hidden;
+	margin-top: -20px;
+	margin-bottom: 20px;
+}
+
+#contenidos #centro3 #derecha article h4{
+	text-align: left; font-size: 15px;
+}
+
+#contenido #centro3 #derecha article p{
+	color: #FA8072; text-align: justify;
+	margin-top: -22px;
+}
+
+.leer-mas{
+	padding: 4px 10px;
+	background: #086a87;
+	text-decoration: none;
+	float: left;
+	border-radius: 5px;
+	color: #FF9900; border: 0;
+}
+/*----------pie-----------*/
+#pie{
+	width: 100%;
+	height: 90px;
+	background: #0b2f3a; 
+}
+
+#pie #centro-pie{
+	width: 800px;
+	height: auto; overflow: hidden;
+	margin: auto;
+}
+
+#pie #centro-pie p{
+	color: #FFC0CB;
+}
+.email{
+	color: #FFCC00; text-decoration: none;
+}
+.email:hover{
+	text-decoration: underline;
+}
+
+
+/*----------pagina de harware-----------*/
+#contenidos-paginas{
+	background: #FFF;
+	padding: 0px 0px 20px 0px;
+	border: 0px solid;
+}
+
+#centro3{
+	width: 790px;
+	margin: auto; border: 0px solid; height: auto; overflow: hidden;
+	text-align: justify;
+}
+
+.encabezados{
+	font-family: 'Arial black';
+	font-size: 50px;
+}
+
+.t1{
+	    color: #0489B1;
+}
+
+.encabezados2{
+	font-family: 'Arial black';
+	font-size: 18px;
+	margin-left: 55px;
+}
+.t2{
+	     color: #0489B1
+}
+
+.descripcion-pagina{
+	color: #848484;
+}
+
+.texto-harware{
+	text-align: justify;
+}
+
+hr{
+	border-top: 1px
+}
+
+.img-hardware{
+	float: left; 
+	margin-right: 7px;
+	width: 150px; height: 125px;
+}
+
+#hardware{
+	height: auto; overflow: hidden;
+}
+
+.img-componentes{
+	width: 200px; height: 150px;
+	margin-left: 25px;
+}
+
+#motherboad, #ram, #cpu, #cache, #rom, #disco, #bios, #fpoder, #tvideo {
+	width: 245px;
+	height: auto; overflow: hidden;
+	border: 2px solid #ccc;
+	display: inline-block; 
+	border-radius: 5px;
+	padding: 5px;
+}
+
+#ram, #cache, #disco, #fpoder, #tvideo, #rom{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
